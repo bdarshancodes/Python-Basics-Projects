@@ -1,0 +1,20 @@
+print("Welcome to CM-INCH / INCH-CM converter\n")
+try:
+
+    a=float(input("Enter the value that you want to change\n"))
+    print("\n Choose type for comverstion")
+    b=int(input("Choose 1--> CM-INCH \n"
+    "Choose 2--> INCH -CM\n"))
+    if b==1:
+        print("You have  chosen CM-INCH converter\n")
+        print(f"Here is your converted value of {a} CM  is {a*0.3937:.2f}INCH")
+    elif b==2:
+    
+        print("You have chosen INCH-CM converter\n")
+        print(f"Here is your converted value of {a}INCH  is {a*2.54:.2f} CM")
+    else:
+        print("Kindly enterd a valid no.\n")
+
+
+except:
+    print("Ops! Please enter a valid details")
